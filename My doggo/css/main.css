@@ -1,0 +1,157 @@
+@import url('reset.css');
+
+
+/* Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #78dd4cd3;
+    color: rgb(43, 43, 43);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+	font-weight: 800;
+	color: rgb(43, 43, 43);
+}
+
+/* Navigation */
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #ffd700;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0px;
+}
+
+/* Sections */
+section {
+    background-color: rgb(225, 246, 218);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #58da21;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #58da21;
+    font-weight: 700;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Images */
+section img {
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+figure img {
+	border-radius: 10px;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Gallery */
+.gallery-full {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.gallery-grid figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-grid img {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+}
+
+.gallery-grid figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.95em;
+    color: #444;
+}
+
+/* Contact information */
+main p {
+    margin-bottom: 10px;
+}
+
+/* Semi-bold text for keywords */
+.semi-bold {
+    font-weight: 550;
+}
+
+/* Footer */
+footer {
+    background-color: #78dd4cd3;
+    color: rgb(43, 43, 43);
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
